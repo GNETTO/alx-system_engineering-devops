@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{{a..n},{p..z}}
+echo {a..z}{a..z} | tr ' ' '\t' | grep -v "00"
